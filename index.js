@@ -30,6 +30,9 @@ function myFunction(){
         ra.innerHTML="25%"
     }
     else if((ab>=50)&& ab<75){
+        ra.innerHTML="50%"
+    }
+    else if(ab>75){
         ra.innerHTML="75%"
     }
 }
